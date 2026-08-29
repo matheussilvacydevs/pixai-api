@@ -108,3 +108,4 @@ profiles/
 backups/
 history/
 *.log
+README.md.backup
