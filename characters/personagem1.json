@@ -1,0 +1,22 @@
+{
+  "name": "Personagem 1",
+
+  "basePrompt": "1girl, anime character, solo",
+
+  "appearance": "long black hair, blue eyes, youthful appearance, consistent facial features",
+
+  "style": "high quality anime illustration, clean line art, detailed eyes, soft lighting",
+
+  "defaultOutfit": "white shirt and black skirt",
+
+  "defaultPose": "standing naturally, full body",
+
+  "defaultExpression": "gentle neutral expression",
+
+  "defaultScenario": "simple school hallway",
+
+  "negativePrompt": "worst quality, low quality, photorealistic, bad anatomy, bad hands, extra fingers, missing fingers, deformed",
+
+  "width": 768,
+  "height": 1280
+}

@@ -1,0 +1,110 @@
+# ============================================================
+# SEGREDOS / CONFIGURAÇÃO PRIVADA
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# Chaves e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# ============================================================
+# CHROMIUM / PIXAI - SESSÕES AUTENTICADAS
+# ============================================================
+chrome-profile/
+profiles/
+
+# Cookies / sessões / tokens
+cookies.json
+cookies.txt
+session.json
+sessions/
+tokens.json
+auth.json
+credentials.json
+
+# Chromium
+SingletonCookie
+SingletonLock
+SingletonSocket
+
+# ============================================================
+# BACKUPS
+# Podem conter versões antigas de .env/sessões
+# ============================================================
+backups/
+backup/
+*.bak
+*.backup
+
+# ============================================================
+# LOGS
+# ============================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================
+# HISTÓRICO PIXAI
+# Pode conter prompts, URLs, task IDs e dados de geração
+# ============================================================
+history/
+generations.jsonl
+
+# ============================================================
+# IMAGENS / RESULTADOS GERADOS
+# ============================================================
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ============================================================
+# NODE
+# ============================================================
+node_modules/
+npm-debug.log
+package-lock.json.tmp
+
+# ============================================================
+# SISTEMA / EDITOR
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================================
+tmp/
+temp/
+*.tmp
+
+# Capturas/dumps que podem conter headers, URLs e sessão
+pixai-network.jsonl
+capturar-pixai.js
+*.har
+
+# Backups antigos do motor
+pixai.js.before-*
+pixai.js.pre-*
+
+# Outros arquivos sensíveis
+.env
+.env.*
+!.env.example
+chrome-profile/
+profiles/
+backups/
+history/
+*.log

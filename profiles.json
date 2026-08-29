@@ -1,0 +1,13 @@
+{
+  "default": "conta1",
+  "profiles": {
+    "conta1": {
+      "dir": "chrome-profile",
+      "port": 9222
+    },
+    "conta2": {
+      "dir": "profiles/conta2",
+      "port": 9223
+    }
+  }
+}
